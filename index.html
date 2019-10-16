@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>La page de Naomi</title>
+   <meta name="description" content="Nao's Page">
+   <meta name="viewport" content="width=device-width">
+ 
+   <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/mycss.css">
+   <link href="https://fonts.googleapis.com/css?family=Overlock+SC|Rajdhani&display=swap" rel="stylesheet">
+   <script type="module" src="js/myscript.js"></script>
+    </head>
+
+    <body style="margin: 0; background-color:black; display: flex; flex-direction: column; align-items: center; color: white;">
+        
+        <div style="align-items: center; display:flex; justify-content: center;background-image: url('https://wallpapercave.com/wp/wp1895685.jpg'); width: 100%; min-height: 640px; background-size: cover;">
+            <p> <a>Naomi</a> </p>
+        </div>
+
+        <!--example tu peux ecrire dedans sans affecter ta page-->
+        <!--Pour placer des boites: 
+        
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items:center;"> </div>
+        
+        -->
+        <div id="presentation" style="display: flex; flex-direction: column; align-items:center;">
+            <h1 style="font-family:'Overlock SC', cursive;">Pourquoi ce métier?</h1>
+            <p style="width: 45%;">Depuis mon enfance, j’ai toujours été intéresser aux jeux vidéo. Je passais mes journées à jouer à des jeux différents et c’était ma passion. Aujourd’hui encore, les jeux vidéo sont encore très passionnant pour moi et je sens que je pourrais aller vers un métier qui touche ce que j’aime. Être un développeur de logiciel pourrait m’aider à atteindre se que j’aime bien faire et me rendre encore meilleure en jeu vidéo! Voila pourquoi je voudrais étudier dans ce domaine. </p>
+        </div>
+        
+        <div id="jeux" style="width: 40%; display:flex; justify-content: space-around; flex-direction: row;">
+            <div style="flex-direction: column;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Dragon_Age_Inquisition_BoxArt.jpg/220px-Dragon_Age_Inquisition_BoxArt.jpg" width="220" height="263">
+                <p style="text-align: center;">Dragon Age Inquisition</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="https://c2.staticflickr.com/8/7335/27518112565_fb9c642a1f_o.png" width="220" height="263"> 
+                <p style="text-align: center;">Mirror's edge</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="https://s1.gaming-cdn.com/images/products/1662/orig/nier-automata-cover.jpg" width="220" height="263">
+                <p style="text-align: center;">NieR:Automata</p>
+            </div>
+        </div>
+
+        <div>
+            <div style="margin: 20px; display: flex; flex-direction: column; ">
+                <div class="container" >
+                    <input id="searchBar" type="text" placeholder="Enter a game name...">
+                    <div class="search"></div>
+                </div>
+                <button id="searchButton" class="btn purple" style="margin: 80 0 0 0; width: 220px;">Search</button>
+                <div id="searchResults" style="margin: 20 0 0 0;">
+                </div>
+                
+
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
